@@ -1,5 +1,7 @@
 package steps;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +19,7 @@ public class Stepsdef
 {
 	WebDriver driver;
 	
+	@BeforeMethod
 	@Before()
 	
 	public void before()
@@ -27,6 +30,7 @@ public class Stepsdef
 		
 	}
 	
+@AfterMethod
 @After()
 	
 	public void endTest(Scenario scenario) {

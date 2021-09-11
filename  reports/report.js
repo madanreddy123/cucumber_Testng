@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7376433460,
+  "duration": 4514480258,
   "status": "passed"
 });
 formatter.scenario({
@@ -57,53 +57,53 @@ formatter.match({
   "location": "Stepsdef.i_enter_the_name_a_Primary_School()"
 });
 formatter.result({
-  "duration": 236841085,
+  "duration": 289629456,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_enter_the_name_a_Secondary_School()"
 });
 formatter.result({
-  "duration": 68987819,
+  "duration": 81377611,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_enter_the_name_a_Intermediate()"
 });
 formatter.result({
-  "duration": 70404197,
+  "duration": 76944674,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_enter_the_name_a_Engineering()"
 });
 formatter.result({
-  "duration": 68968386,
+  "duration": 68510679,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_enter_the_name_a_University()"
 });
 formatter.result({
-  "duration": 88444604,
+  "duration": 82541314,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_enter_the_intermediate_Percentage()"
 });
 formatter.result({
-  "duration": 4203535991,
+  "duration": 4199446098,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepsdef.i_click_on_gender()"
 });
 formatter.result({
-  "duration": 185384363,
+  "duration": 206118955,
   "status": "passed"
 });
 formatter.after({
-  "duration": 20160032,
+  "duration": 21309269,
   "status": "passed"
 });
 });
