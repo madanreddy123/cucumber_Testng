@@ -15,7 +15,15 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @CucumberOptions(
         features = "src/test/java/Features/login.feature",
         glue = "steps",
-     plugin = "html: reports")
+     plugin = "html: reports", monochrome = true, //display the console output in a proper readable format
+ 			strict = true, //it will check if any step is not defined in step definition file
+ 			dryRun = false //to check the mapping is proper between feature file and step def file
+ 			,tags = {"@SmokeTest"} ///~ symbol is 	Tilde (freestanding) ~ is used before the tag name to ignore the tag
+        //types of tages used in feature files @smoketest, @regresssion, @End2End
+        //ORed : tags = {"@SmokeTest , @RegressionTest"} -- execute all tests tagged as @SmokeTest OR @RegressionTest
+    	//ANDed : tags = tags = {"@SmokeTest" , "@RegressionTest"} -- execute all tests tagged as @SmokeTest AND @RegressionTest
+    	
+ 			)
 
 public class Testrunner {
     private TestNGCucumberRunner testNGCucumberRunner;
