@@ -1,5 +1,6 @@
 Feature: Admin Login 
 
+@SmokeTest
 Scenario: Enter the education form
 
       Given I enter the name a Primary_School 
