@@ -1,20 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.cucumber.demo</groupId>
-  <artifactId>CucumberBDDCMD</artifactId>
+  <groupId>Selenium</groupId>
+  <artifactId>pro</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
-  <properties>
+<properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 <dependencies>
-<!--   https://mvnrepository.com/artifact/org.testng/testng   -->
+<!--  https://mvnrepository.com/artifact/org.testng/testng  -->
 <dependency>
 <groupId>org.testng</groupId>
 <artifactId>testng</artifactId>
 <version>6.14.3</version>
-<!--   <scope>compile</scope>   -->
+<!--  <scope>compile</scope>  -->
 </dependency>
 <dependency>
 <groupId>org.seleniumhq.selenium</groupId>
@@ -25,8 +23,8 @@
 <groupId>info.cukes</groupId>
 <artifactId>cucumber-java</artifactId>
 <version>1.2.5</version>
-<!--   			<scope>test</scope>
-   -->
+<!--  			<scope>test</scope>
+  -->
 </dependency>
 <dependency>
 <groupId>info.cukes</groupId>
@@ -91,7 +89,7 @@
 </goals>
 <configuration>
 <projectName>MyProjectName</projectName>
-<!--   Replace with project name   -->
+<!--  Replace with project name  -->
 <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
 <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
 <buildNumber>1</buildNumber>
